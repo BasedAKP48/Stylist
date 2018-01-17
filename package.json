@@ -1,0 +1,23 @@
+{
+  "name": "@basedakp48/eslint-config",
+  "version": "0.0.1",
+  "description": "A base approach to JavaScript",
+  "author": "feildmaster <akp48@feildmaster.com> (https://feildmaster.com)",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "github:BasedAKP48/stylist",
+  "bugs": "https://github.com/BasedAKP48/stylist/issues",
+  "keywords": [
+    "basedakp48",
+    "eslint",
+    "eslintconfig",
+    "javascript"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
