@@ -1,7 +1,8 @@
 module.exports = {
   'extends': 'airbnb-base',
   'rules': {
-    'comma-dangle': ['error'],
+    // Minimizes diffs when adding new lines
+    'comma-dangle': ['error', 'always-multiline'],
     'consistent-return': 'warn',
     'no-param-reassign': ['warn', { 'props': false }],
     'no-unused-expressions': ['error', { 'allowShortCircuit': true }],
