@@ -10,5 +10,6 @@ module.exports = {
     'prefer-destructuring': ['error', {
       'AssignmentExpression': { 'array': true, 'object': false },
     }],
+    'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
   },
 };
