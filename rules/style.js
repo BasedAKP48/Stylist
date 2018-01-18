@@ -5,7 +5,7 @@ module.exports = {
     // Warn, we allow this behavior, but want to be aware of any possible issues
     'consistent-return': 'warn',
     // We allow modification of properties
-    'no-param-reassign': ['warn', { 'props': true }],
+    'no-param-reassign': ['warn', { 'props': false }],
     // Allow short circuits: test && action
     'no-unused-expressions': ['error', { 'allowShortCircuit': true }],
     // Allow function arguments to be unused

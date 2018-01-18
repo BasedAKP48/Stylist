@@ -1,6 +1,6 @@
 {
   "name": "@basedakp48/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A base approach to JavaScript",
   "author": "feildmaster <akp48@feildmaster.com> (https://feildmaster.com)",
   "main": "index.js",
