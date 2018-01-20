@@ -16,3 +16,22 @@ module.exports = {
 ```
 Done! :D
 
+# Using locally
+You may want to use one live instance of Stylist, to do so you "link" the project without
+installing the project from npm.
+In this directory:
+```
+npm link
+```
+
+In other project:
+```
+npm link @basedakp48/eslint-config
+```
+
+# Editing locally
+To lint locally, you must add ESLint to this project yourself:
+```
+npm install eslint --no-save
+```
+
