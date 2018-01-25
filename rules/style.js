@@ -18,5 +18,7 @@ module.exports = {
     }],
     // Allow for loops to use unary (++/--)
     'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
+    // Allow bitwise asssignments (AND, OR, XOR), and not
+    'no-bitwise': ['error', { 'allow': ['&=', '|=', '^=', '~'] }],
   },
 };
